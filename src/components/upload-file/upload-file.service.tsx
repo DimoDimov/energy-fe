@@ -4,7 +4,7 @@ import S3, { ObjectList } from "aws-sdk/clients/s3";
 const S3_BUCKET = "csv-container-2";
 const REGION = "eu-west-2";
 
-// left on purpose for testing
+// replace creds here
 AWS.config.update({
   region: REGION,
   credentials: new AWS.Credentials("", ""),
